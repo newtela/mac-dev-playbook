@@ -6,6 +6,16 @@
 
 This playbook installs and configures most of the software I use on my Mac for web and software development. Some things in macOS are slightly difficult to automate, so I still have a few manual installation steps, but at least it's all documented here.
 
+## NTS
+Before running any of the installation steps
+
+  1. `mdkir -p ~/.config/{pip,iterm}`
+  2. Install oh-my-zsh
+
+Post install steps
+
+  1. Import iterm configs from `~/.config/iterm/`
+
 ## Installation
 
   1. Ensure Apple's command line tools are installed (`xcode-select --install` to launch the installer).
