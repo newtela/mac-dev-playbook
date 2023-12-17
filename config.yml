@@ -41,3 +41,4 @@ homebrew_cask_apps:
   - adguard
   - microsoft-edge
   - rectangle
+  - flux
