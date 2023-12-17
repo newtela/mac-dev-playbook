@@ -1,0 +1,42 @@
+---
+configure_terminal: false
+
+dotfiles_repo: https://github.com/nqui/dotfiles.git
+dotfiles_repo_accept_hostkey: true
+dotfiles_repo_local_destination: ~/code/env-config/dotfiles
+dotfiles_files:
+  - .zshrc
+  - .gitignore
+  - .osx
+  - .vimrc
+  - .config/pip/pip.conf
+  - .nanorc
+  - .gitconfig
+
+homebrew_installed_packages:
+  # - ansible # Installed via Pip.
+  - git
+  - httpie
+  - iperf
+  - ssh-copy-id
+  - openssl
+  - wget
+  - zsh-history-substring-search
+  - asdf
+  - nano
+  - nanorc
+  - zsh
+  - powerlevel10k
+
+homebrew_cask_apps:
+  - docker
+  - slack
+  - onedrive
+  - 1password
+  - iterm2
+  - discord
+  - goland
+  - pycharm
+  - adguard
+  - microsoft-edge
+  - rectangle
