@@ -27,6 +27,7 @@ homebrew_installed_packages:
   - nanorc
   - zsh
   - powerlevel10k
+  - zsh-autocomplete
 
 homebrew_cask_apps:
   - docker
