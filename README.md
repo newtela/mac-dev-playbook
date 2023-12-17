@@ -15,6 +15,7 @@ Before running any of the installation steps
 Post install steps
 
   1. Import iterm configs from `~/.config/iterm/`
+  2. Setup rectangle hotkeys
 
 ## Installation
 
