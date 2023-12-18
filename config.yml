@@ -22,6 +22,7 @@ homebrew_installed_packages:
   - openssl
   - wget
   - zsh-history-substring-search
+  - zsh-autosuggestions
   - asdf
   - nano
   - nanorc
