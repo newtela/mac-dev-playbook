@@ -27,7 +27,6 @@ homebrew_installed_packages:
   - nanorc
   - zsh
   - powerlevel10k
-  - zsh-autocomplete
   - go
 
 homebrew_cask_apps:
