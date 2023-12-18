@@ -3,7 +3,7 @@ configure_terminal: false
 
 dotfiles_repo: https://github.com/nqui/dotfiles.git
 dotfiles_repo_accept_hostkey: true
-dotfiles_repo_local_destination: ~/code/env-config/dotfiles
+dotfiles_repo_local_destination: ~/env-config/dotfiles
 dotfiles_files:
   - .zshrc
   - .gitignore
@@ -28,6 +28,7 @@ homebrew_installed_packages:
   - zsh
   - powerlevel10k
   - zsh-autocomplete
+  - go
 
 homebrew_cask_apps:
   - docker
