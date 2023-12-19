@@ -29,6 +29,7 @@ homebrew_installed_packages:
   - zsh
   - powerlevel10k
   - go
+  - tree
 
 homebrew_cask_apps:
   - docker
