@@ -12,7 +12,7 @@ dotfiles_files:
   - .config/pip/pip.conf
   - .nanorc
   - .gitconfig
-  - .config/iterm/item-profiles.json
+  - .config/iterm/iterm-profiles.json
   - Library/Application Support/Rectangle/RectangleConfig.json
 
 homebrew_installed_packages:
