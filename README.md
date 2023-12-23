@@ -9,13 +9,13 @@ This playbook installs and configures most of the software I use on my Mac for w
 ## NTS
 Before running any of the installation steps
 
-  1. `mdkir -p ~/.config/{pip,iterm}`
-  2. Install oh-my-zsh
+  1. `mdkir -p ~/.config/{pip,iterm2}`
+  2. `mkdir -p ~/Library/Application\ Support/Rectangle`
+  3. Install [oh-my-zsh](https://ohmyz.sh/)
 
 Post install steps
 
-  1. Import iterm configs from `~/.config/iterm/`
-  2. Setup rectangle hotkeys
+  1. Import iterm configs from `~/.config/iterm2/`
 
 ## Installation
 
