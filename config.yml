@@ -13,7 +13,7 @@ dotfiles_files:
   - .nanorc
   - .gitconfig
   - .config/iterm/iterm-profiles.json
-  - Library/Application Support/Rectangle/RectangleConfig.json
+  - "Library/Application Support/Rectangle/RectangleConfig.json"
 
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
