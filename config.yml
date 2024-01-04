@@ -18,6 +18,7 @@ dockitems_remove:
   - Music
   - Podcasts
   - News
+  - FaceTime
   - 'App Store'
 
 dockitems_persist: 
