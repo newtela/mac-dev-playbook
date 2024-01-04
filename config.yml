@@ -34,9 +34,12 @@ dockitems_persist:
   - name: 'GoLand'
     path: '/Applications/GoLand.app'
     pos: 5
+  - name: 'PyCharm'
+    path: '/Applications/PyCharm.app'
+    pos: 6
   - name: 'Discord'
     path: '/Applications/Discord.app'
-    pos: 6
+    pos: 7
 
 dotfiles_repo: https://github.com/nqui/dotfiles.git
 dotfiles_repo_accept_hostkey: true
