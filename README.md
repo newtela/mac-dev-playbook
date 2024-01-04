@@ -6,16 +6,18 @@
 
 This playbook installs and configures most of the software I use on my Mac for web and software development. Some things in macOS are slightly difficult to automate, so I still have a few manual installation steps, but at least it's all documented here.
 
-## NTS
+## Custom instruction additions
 Before running any of the installation steps
 
-  1. `mdkir -p ~/.config/{pip,iterm2}`
+  1. `mkdir -p ~/.config/{pip,iterm2}`
   2. `mkdir -p ~/Library/Application\ Support/Rectangle`
   3. Install [oh-my-zsh](https://ohmyz.sh/)
 
 Post install steps
 
   1. Import iterm configs from `~/.config/iterm2/`
+  2. Kill dock process for dock configs to kick in `killall Dock`
+  3. Install asdf python plugin `asdf plugin add python`
 
 ## Installation
 
