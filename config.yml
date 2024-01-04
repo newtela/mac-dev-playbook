@@ -1,5 +1,42 @@
 ---
 configure_terminal: false
+configure_osx: true
+configure_dotfiles: true
+
+configure_dock: true
+dockitems_remove: [
+  - Launchpad
+  - Safari
+  - Mail
+  - Maps
+  - Photos
+  - Calendar
+  - Contacts
+  - Reminders
+  - Notes
+  - TV
+  - Music
+  - Podcasts
+  - News
+  - 'App Store'
+]
+dockitems_persist: [
+  - name: 'Microsoft Edge'
+    path: '/Applications/Microsoft Edge.app'
+    pos: 2
+  - name: '1Password'
+    path: '/Applications/1Password.app'
+    pos: 3
+  - name: 'iTerm'
+    path: '/Applications/iTerm.app'
+    pos: 4
+  - name: 'GoLand'
+    path: '/Applications/GoLand.app'
+    pos: 5
+  - name: 'Discord'
+    path: '/Applications/Discord.app'
+    pos: 6
+]
 
 dotfiles_repo: https://github.com/nqui/dotfiles.git
 dotfiles_repo_accept_hostkey: true
