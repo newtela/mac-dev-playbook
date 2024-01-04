@@ -19,27 +19,13 @@ dockitems_remove:
   - Podcasts
   - News
   - FaceTime
+  - Messages
   - 'App Store'
 
 dockitems_persist: 
-  - name: 'Microsoft Edge'
-    path: '/Applications/Microsoft Edge.app'
-    pos: 2
-  - name: '1Password'
-    path: '/Applications/1Password.app'
-    pos: 3
   - name: 'iTerm'
     path: '/Applications/iTerm.app'
-    pos: 4
-  - name: 'GoLand'
-    path: '/Applications/GoLand.app'
-    pos: 5
-  - name: 'PyCharm'
-    path: '/Applications/PyCharm.app'
-    pos: 6
-  - name: 'Discord'
-    path: '/Applications/Discord.app'
-    pos: 7
+    pos: 1
 
 dotfiles_repo: https://github.com/nqui/dotfiles.git
 dotfiles_repo_accept_hostkey: true
@@ -86,3 +72,4 @@ homebrew_cask_apps:
   - microsoft-edge
   - rectangle
   - flux
+  - hey
