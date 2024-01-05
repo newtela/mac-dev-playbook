@@ -29,7 +29,7 @@ dockitems_persist:
 
 dotfiles_repo: https://github.com/nqui/dotfiles.git
 dotfiles_repo_accept_hostkey: true
-dotfiles_repo_local_destination: ~/env-config/dotfiles
+dotfiles_repo_local_destination: ~/.config/dotfiles
 dotfiles_files:
   - .zshrc
   - .gitignore
@@ -73,3 +73,5 @@ homebrew_cask_apps:
   - rectangle
   - flux
   - hey
+
+homebrew_taps: []
