@@ -75,5 +75,4 @@ homebrew_cask_apps:
   - flux
   - hey
   - calibre
-
-homebrew_taps: []
+  - qmk-toolbox
