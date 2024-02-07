@@ -70,6 +70,7 @@ homebrew_cask_apps:
   - pycharm
   - datagrip
   - adguard
+  - firefox
   - microsoft-edge
   - rectangle
   - flux
