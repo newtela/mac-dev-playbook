@@ -58,6 +58,7 @@ homebrew_installed_packages:
   - powerlevel10k
   - go
   - tree
+  - jq
 
 homebrew_cask_apps:
   - docker
