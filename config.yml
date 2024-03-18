@@ -21,11 +21,21 @@ dockitems_remove:
   - FaceTime
   - Messages
   - 'App Store'
+  - Freeform
+  - Keynote
+  - Numbers
+  - Pages
 
 dockitems_persist: 
   - name: 'iTerm'
     path: '/Applications/iTerm.app'
     pos: 1
+  - name: 'GoLand'
+    path: '/Applications/GoLand.app'
+    pos: 2
+  - name: 'Firefox'
+    path: '/Applications/Firefox.app'
+    pos: 3
 
 dotfiles_repo: https://github.com/nqui/dotfiles.git
 dotfiles_repo_accept_hostkey: true
