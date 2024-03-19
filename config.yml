@@ -89,3 +89,5 @@ homebrew_cask_apps:
   - calibre
   - qmk-toolbox
   - spotify
+  - little-snitch
+  - micro-snitch
