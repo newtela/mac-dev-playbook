@@ -72,7 +72,6 @@ homebrew_installed_packages:
 
 homebrew_cask_apps:
   - docker
-  - slack
   - onedrive
   - 1password
   - iterm2
@@ -92,3 +91,5 @@ homebrew_cask_apps:
   - little-snitch
   - micro-snitch
   - vlc
+  - zed
+  - balenaetcher
