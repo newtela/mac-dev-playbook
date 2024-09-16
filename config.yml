@@ -27,15 +27,21 @@ dockitems_remove:
   - Pages
 
 dockitems_persist: 
+  - name: 'System Settings'
+    path: '/Applications/System Settings.app'
+    pos: 1
   - name: 'iTerm'
     path: '/Applications/iTerm.app'
-    pos: 1
+    pos: 2
   - name: 'GoLand'
     path: '/Applications/GoLand.app'
-    pos: 2
-  - name: 'Firefox'
-    path: '/Applications/Firefox.app'
     pos: 3
+  - name: 'Microsoft Edge'
+    path: '/Applications/Microsoft Edge.app'
+    pos: 4
+  - name: 'System Settings'
+    path: '/Applications/System Settings.app'
+    pos: 5
 
 dotfiles_repo: https://github.com/nqui/dotfiles.git
 dotfiles_repo_accept_hostkey: true
@@ -80,7 +86,6 @@ homebrew_cask_apps:
   - pycharm
   - datagrip
   - adguard
-  - firefox
   - microsoft-edge
   - rectangle
   - flux
@@ -88,8 +93,7 @@ homebrew_cask_apps:
   - calibre
   - qmk-toolbox
   - spotify
-  - little-snitch
-  - micro-snitch
   - vlc
   - zed
   - balenaetcher
+  - keka
