@@ -4,7 +4,7 @@ configure_osx: true
 configure_dotfiles: true
 
 configure_dock: true
-dockitems_remove: 
+dockitems_remove:
   - Launchpad
   - Safari
   - Mail
@@ -20,27 +20,27 @@ dockitems_remove:
   - News
   - FaceTime
   - Messages
-  - 'App Store'
+  - "App Store"
   - Freeform
   - Keynote
   - Numbers
   - Pages
 
-dockitems_persist: 
-  - name: 'System Settings'
-    path: '/Applications/System Settings.app'
+dockitems_persist:
+  - name: "System Settings"
+    path: "/Applications/System Settings.app"
     pos: 1
-  - name: 'iTerm'
-    path: '/Applications/iTerm.app'
+  - name: "iTerm"
+    path: "/Applications/iTerm.app"
     pos: 2
-  - name: 'GoLand'
-    path: '/Applications/GoLand.app'
+  - name: "GoLand"
+    path: "/Applications/GoLand.app"
     pos: 3
-  - name: 'Microsoft Edge'
-    path: '/Applications/Microsoft Edge.app'
+  - name: "Microsoft Edge"
+    path: "/Applications/Microsoft Edge.app"
     pos: 4
-  - name: 'System Settings'
-    path: '/Applications/System Settings.app'
+  - name: "System Settings"
+    path: "/Applications/System Settings.app"
     pos: 5
 
 dotfiles_repo: https://github.com/nqui/dotfiles.git
@@ -75,6 +75,7 @@ homebrew_installed_packages:
   - go
   - tree
   - jq
+  - MonitorControl
 
 homebrew_cask_apps:
   - docker
