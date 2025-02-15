@@ -70,7 +70,6 @@ homebrew_installed_packages:
   - wget
   - zsh-history-substring-search
   - zsh-autosuggestions
-  - asdf
   - nano
   - nanorc
   - zsh
@@ -79,6 +78,7 @@ homebrew_installed_packages:
   - tree
   - jq
   - MonitorControl
+  - mise
 
 homebrew_cask_apps:
   - docker
