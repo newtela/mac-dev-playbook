@@ -18,8 +18,6 @@ Post install steps
   1. Kill dock process for dock configs to kick in `killall Dock`
   2. Install mise plugins:
       ```
-      mise plugin add python
-      mise plugin add golang
       mise plugin add dotnet
       ```
 
