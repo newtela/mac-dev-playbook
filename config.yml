@@ -77,7 +77,6 @@ homebrew_installed_packages:
   - go
   - tree
   - jq
-  - MonitorControl
   - mise
 
 homebrew_cask_apps:
@@ -96,3 +95,4 @@ homebrew_cask_apps:
   - vlc
   - balenaetcher
   - keka
+  - protonvpn
