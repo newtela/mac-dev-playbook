@@ -30,18 +30,21 @@ dockitems_persist:
   - name: "System Settings"
     path: "/Applications/System Settings.app"
     pos: 1
-  - name: "iTerm"
-    path: "/Applications/iTerm.app"
+  - name: "Ghostty"
+    path: "/Applications/Ghostty.app"
     pos: 2
   - name: "GoLand"
     path: "/Applications/GoLand.app"
     pos: 3
-  - name: "Microsoft Edge"
-    path: "/Applications/Microsoft Edge.app"
+  - name: "Rider"
+    path: "/Applications/Rider.app"
     pos: 4
+  - name: "Brave"
+    path: "/Applications/Brave.app"
+    pos: 5
   - name: "System Settings"
     path: "/Applications/System Settings.app"
-    pos: 5
+    pos: 6
 
 dotfiles_repo: https://github.com/nqui/dotfiles.git
 dotfiles_repo_accept_hostkey: true
@@ -79,22 +82,17 @@ homebrew_installed_packages:
 
 homebrew_cask_apps:
   - docker
-  - onedrive
   - 1password
-  - iterm2
   - discord
   - goland
   - pycharm
   - datagrip
+  - rider
   - adguard
-  - microsoft-edge
+  - brave
   - rectangle
   - flux
-  - hey
-  - calibre
-  - qmk-toolbox
   - spotify
   - vlc
-  - zed
   - balenaetcher
   - keka
